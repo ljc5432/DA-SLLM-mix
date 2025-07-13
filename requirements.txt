@@ -1,0 +1,4 @@
+modelscope
+numpy
+datasets
+addict
