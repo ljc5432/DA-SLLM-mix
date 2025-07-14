@@ -1,5 +1,5 @@
 def transcribe_segments(audio_path: str, segments: list) -> list:
-    # TODO: 在此实现insanely-fast-whisper的调用逻辑
+    # TODO: 在此实现whisper-large-v3的调用逻辑
     # 1. 根据segments中的时间戳，从audio_path中批量裁剪音频片段
     # 2. 将片段送入ASR模型进行批量转写
     # 3. 将转写文本添加回segments列表
